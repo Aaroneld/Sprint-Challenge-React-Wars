@@ -1,8 +1,70 @@
 .App {
   text-align: center;
+  margin: 5%;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.character-container{
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+.character-list{
+
+  text-align: center;
+  flex-basis: 24%;
+  background: white;
+  margin: 2%;
+  padding: 2%;
+  opacity: .8;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.character-list h2 {
+
+  text-decoration: underline;
+  text-align: center;
+}
+
+.character-list ul {
+
+  padding: 0;
+}
+
+.character-list li {
+
+  text-align: left;
+  font-weight: bold;
+  line-height: 50px;
+  list-style-position: inside;
+  padding-left: 2%;
+  
+}
+.film-div {
+
+  background: black;
+  color: white;
+  opacity: .7;
+  padding: 4%;
+ 
+}
+.film-div h3 {
+
+  text-decoration: underline;
+}
+
+.film-div li {
+
+  text-decoration: none;
+  font-size: 75%;
+} 
 /* write your parent styles in here for your App.js */
